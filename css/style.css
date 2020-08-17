@@ -1,0 +1,178 @@
+/* GENERAL */
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+/* CONTAINER 1 > NAVEGADOR Y MENU HAMBURGUESA */
+
+.logo {
+    display:block;
+}
+
+.avatar {
+    border-radius:50%;
+}
+
+.svgIcon-use {
+    cursor: pointer;
+    width: auto;
+    height: 28px;
+}
+
+.nav {
+    position: relative;
+}
+
+.bookm-scroll ul {
+    padding-left:0;
+    display:flex;
+    color: gray;
+    list-style:none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size:.9rem;
+    cursor:pointer;
+}
+
+.navbar-toggler {
+    border-style:none!important;
+    outline: none;
+}
+
+.navbar-nav {
+    padding-left:2rem;
+    height: 100%;
+}
+
+.line-break {
+    border-top: 1px solid rgb(180, 180, 180)!important;
+}
+
+.media {
+    margin-top:2rem;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.navbar-light .navbar-nav .nav-link .member {
+    color: darkgreen!important;
+}
+
+.nav-item {
+    font-size:.9rem;
+    margin-top:1rem;
+    margin-bottom:.9rem;
+}
+
+.media-body p {
+    margin-top:.5em;
+    line-height: .5;
+}
+
+
+/* CONTAINER 2 > HEADER */
+
+
+
+/* CONTAINER 3 > MAIN */
+
+.banner {
+    width:100%;
+}
+
+.banner-new {
+    display:flex;
+    background-color: #D7EFEE;
+    justify-content: space-around;
+    align-items:center;
+    height:180px;
+}
+
+.card-img-top {
+    width: 40%;
+}
+
+.card-body {
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+#category {
+    color: gray;
+    font-size:.8rem;
+    font-weight:600;
+    padding-bottom: 1rem;
+}
+
+.article-footer {
+    justify-content:space-between;
+}
+
+.foot {
+    display:flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+#autor {
+    display:inline-block;
+    color:black;
+    font-weight: 600;
+    font-size:.8rem;
+    width: 16rem;
+}
+
+#autor p {
+    margin:0;
+    padding-bottom:.6rem;
+}
+
+#time {
+    display:flex;
+    justify-content: flex-start;
+    color: gray;
+    font-size:.8rem;
+    font-weight: 600;
+    text-align:left;
+    width:100%;
+}
+
+.icons {
+    display:flex;
+    justify-content:flex-end;
+    width:100%;
+    height:28px;
+    cursor: pointer;
+}
+
+#mas-opciones {
+    width:30px;
+    height:auto;
+}
+
+
+
+/* RESPONSIDIVDAD DESK - TAMAÑO MÍNIMO: 576PX */
+/* ES 576 PORQUE ES EL TAMAÑO MÍNIMO DEL CONTENEDOR DESK */
+
+
+@media only screen and (min-width:576px) {
+
+{
+    color: gray;
+}
+
+
+
+
+
